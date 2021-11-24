@@ -23,7 +23,7 @@ public class SelectTest9_DeleteSno {
 				System.out.println("Enter Student address to delete");
 				Sno=sc.nextInt();//gives sno
 				
-				con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "sha", "sha");
+				con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "sha", "shi");
 				//create the jdbc statement
 				if(con!=null) 
 					st=con.createStatement();

@@ -10,7 +10,7 @@ public class InSensitiveTest {
 
 	private static final String QUERY="SELECT SNO, SNAME,SADD,AVG FROM STUDENT";
 	public static void main(String[] args) {
-			try(Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","sha","sha");
+			try(Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","sha","shi");
 					Statement st=con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 					ResultSet rs=st.executeQuery(QUERY);
 			){

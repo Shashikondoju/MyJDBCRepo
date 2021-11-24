@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 //java app for update student avg in given range..
 import java.util.Scanner;
-public class SelectTestUpdateAssignStudent {
+public class UpdateAssignStudent {
 
 	public static void main(String[] args) {
 		Scanner sc=null;

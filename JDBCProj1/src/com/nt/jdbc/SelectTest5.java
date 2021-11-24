@@ -32,7 +32,7 @@ public class SelectTest5 {
 				//Class.forName("oracle.jdbc.driver.OracleDriver");
 			//establish connection
 			
-			 con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","sha","sha");
+			 con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","sha","shi");
 			 //create statement	
 			 
 			 if(con!=null)
